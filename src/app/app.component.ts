@@ -6,8 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  activeUsers = ['Yogesh', 'Anna'];
-  inactiveUsers = ['Kanthale', 'Manu'];
 
   onSetToInactive(id: number) {
     this.inactiveUsers.push(this.activeUsers[id]);
